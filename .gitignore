@@ -1,0 +1,39 @@
+# 🔥 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔥 Virtual environment (VERY IMPORTANT)
+venv/
+env/
+ENV/
+
+# 🔥 OS files
+.DS_Store
+Thumbs.db
+
+# 🔥 Environment variables
+.env
+
+# 🔥 Logs
+*.log
+
+# 🔥 VS Code / Editor
+.vscode/
+.idea/
+
+# 🔥 Jupyter (if any)
+.ipynb_checkpoints/
+
+# 🔥 Temporary files
+*.tmp
+*.swp
+
+# 🔥 Build / dist
+build/
+dist/
+*.egg-info/
+
+# 🔥 SQLite DB (if added later)
+*.db
