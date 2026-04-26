@@ -10,7 +10,8 @@ This project is a **Machine Learning-powered web application** built using **Fla
 * ⚡ Collaborative filtering using Pearson correlation
 * 🌐 Simple and interactive web interface
 * 🐳 Dockerized for easy deployment
-* ☁️ Deployable on cloud platforms (Render)
+* ☁️ Deployable on cloud platforms like Render
+* 🔄 CI/CD-ready pipeline using Jenkins
 
 ---
 
@@ -41,6 +42,7 @@ This project is a **Machine Learning-powered web application** built using **Fla
 ├── ratings.csv
 ├── requirements.txt
 ├── Dockerfile
+├── Jenkinsfile
 ├── templates/
 │   └── index.html
 ├── static/
@@ -94,6 +96,19 @@ docker run -p 5000:5000 movie-recommender
 
 ---
 
+## 🔄 CI/CD Pipeline (Jenkins)
+
+This project includes a **Jenkins pipeline configuration** that automates:
+
+* 📦 Docker image build
+* 🚀 Containerized application testing
+* ❤️ Health check validation
+* 🧹 Container lifecycle management
+
+Pipeline is defined in the `Jenkinsfile` following **Pipeline-as-Code** practices.
+
+---
+
 ## ☁️ Deployment (Render)
 
 1. Push project to GitHub
@@ -110,7 +125,6 @@ docker run -p 5000:5000 movie-recommender
 * Ratings should be between **1–5**
 * Some movies may not return results due to insufficient data
 
-
 ---
 
 ## 🧑‍💻 Tech Stack
@@ -120,6 +134,7 @@ docker run -p 5000:5000 movie-recommender
 * Pandas, NumPy, Scikit-learn
 * HTML, CSS
 * Docker
+* Jenkins
 
 ---
 
@@ -128,18 +143,12 @@ docker run -p 5000:5000 movie-recommender
 * 🔍 Add search suggestions / autocomplete
 * 📊 Improve recommendation algorithm
 * ⚡ Add caching for faster responses
-* 🌍 Deploy with CI/CD pipeline
+* 🌍 Extend CI/CD with automated deployment
 
 ---
 
 ## 💬 Author
 
 **Harsh Pachauri**
-
----
-
-## ⭐ Acknowledgements
-
-This project is based on collaborative filtering techniques commonly used in recommendation systems.
 
 ---
